@@ -1,0 +1,87 @@
+.layout {
+    width: 90%;
+    max-width: 800px;
+    border: 1px solid rgb(192, 192, 192);
+    background-color: rgb(241, 241, 241);
+    margin: auto;
+    margin-top: 10px;
+}
+
+.layout h2 {
+    text-align: center;
+    font-size: 25px;
+    color: gray;
+}
+
+.dataTable {
+    margin-top: 10px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.dataTable ul {
+    display: grid;
+    margin: 0;
+    padding: 0;
+    grid-template-columns: 100px 1fr;
+}
+
+.dataTable ul li {
+    list-style: none;
+    border-bottom: 1px dotted #ccc;
+    padding: 7px;
+    background-color: white;
+}
+
+.dtDateH {
+    text-align: center;
+    border-right: 1px solid #ccc;
+    font-weight: bold;
+}
+
+.dtTaskH {
+    text-align: left;
+    font-weight: bold;
+}
+
+.dtDate {
+    text-align: center;
+    border-right: 1px solid #ccc;
+}
+
+.dtTask {
+    text-align: left;
+}
+.newTask {
+    text-align: center;
+}
+.newTask button, .newTaskForm button{
+    border: 0px;
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(181,181,181,1) 27%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(181,181,181,1) 27%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(181,181,181,1) 27%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1);
+    padding: 8px;
+    font-size: 16px;
+    margin: 15px;
+}
+
+.newTaskForm{
+    padding: 5px;
+}
+.ntfFields{
+    display: flex;
+    align-items: center;
+}
+.ntfFields label{
+    flex-basis: 120px;
+}
+.ntfFields input{
+    flex-basis: 40%;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding: 0 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
